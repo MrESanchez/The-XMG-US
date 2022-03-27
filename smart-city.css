@@ -1,0 +1,283 @@
+*
+{
+    padding: 0;
+    margin: 0;
+}
+@font-face {
+    font-family: deansgate;
+    src: url(fonts/deansgatecondensed-bold.ttf);
+  }
+.header{
+    height: 500px;
+    background-image: url(images/smartcity.jpeg);
+    background-size: cover;
+    background-position: 50% 75%;
+    background-attachment: scroll;
+    text-align: center;
+    color:#fff;
+}
+.header h1{
+    padding-top: 85px;
+    padding-bottom: 10px;
+    font-size: 40px;
+    font-family: "deansgate";
+    filter: drop-shadow(0px 0px 5px rgba(0, 0, 0, 1))
+}
+.navbar{
+    padding-top: 20px !important;
+}
+.nav-item{
+    margin-left: 60px;
+    margin-bottom: 10px;
+}
+.nav-link{
+    color: #fff !important;
+    font-size: 18px;
+    font-family: "deansgate" !important;
+    padding: 0 0 5px 0 !important;
+    display: unset !important;
+    filter: drop-shadow(0px 0px 5px rgba(0, 0, 0, 0.5)) !important;
+}
+.navbar-brand img{
+    width: 110px;
+    filter: drop-shadow(0px 0px 3px rgba(0, 0, 0, 0.5));
+    transition: transform .5;
+}
+.navbar-brand:hover{
+    filter: drop-shadow(0px 0px 10px rgba(255, 255, 255, 0.5)) !important;
+    transform: scale(1.1);
+}
+.fa-bars{
+    color:#fff;
+    font-size: 30px !important;
+}
+.navbar-toggler{
+    border: 0 !important; 
+    outline: none !important;
+    padding: initial !important;
+}
+.active-home{
+    border-bottom: 2px solid #fff;
+    font-size: 21px !important;
+}
+.nav-link:hover{
+    border-bottom: 2px solid #fff;
+    font-size: 19px;
+}
+.dropdown-menu{
+    display: none;
+    position:absolute;
+    color: #fff;
+  background-color: transparent;
+  z-index: 1;
+} 
+
+  .dropdown:hover>.dropdown-menu {
+    display: block;
+    background-color: rgba(0, 0, 0, 0);
+    font-family: deansgate;
+    border: none 
+  }  
+
+  .dropdown-menu a:hover{
+      background-color: #619dcc; 
+      color: #fff;
+      border-radius: 20px;
+  }
+
+  .right-menu:hover{
+      display: block;
+  }
+
+  .right-menu:hover .menu-button{
+      background-color: transparent;
+  }
+
+  .dropdown-menu.show {
+    display: none;
+    background-color: rgba(0,0,0,0);
+    font-family: deansgate;
+    position: relative;
+    display: inline-block;
+    border: none;
+}
+
+  .usingpcgraphic{
+  
+  width: 60%;
+  
+}
+
+
+
+
+/*------------smartcity-------------*/
+
+.smartci{
+    background-image: url(images/diamond_blue.png);
+    background-size: cover;
+    background-position: top;
+    background-attachment: scroll;
+    padding: 50px 0px;
+}
+.title{
+    text-align: center;
+    font-family: "deansgate";
+    padding: auto;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    font-size: 40px;
+    color:#fff;
+}
+.subtitle4{
+    text-align: center !important;
+    font-size: 23px;
+    font-family: "deansgate";
+    color:#fff;
+}
+
+[aria-expanded="false"] > .expanded,
+[aria-expanded="true"] > .collapsed {
+display: none;
+}
+
+.readmore a{
+    margin: auto;
+    padding: 15px;
+    width: 170px;
+    display: block;
+    background: #bf4092;
+    text-decoration: none !important;
+    color: #fff;
+    border: 2px solid #bf4092;
+    border-radius: 30px;
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    font-size: 16px;
+    font-family: "deansgate";
+}
+.readmore a:hover{
+    background: #bf4092;
+    color: #619dcc;
+    transform: scale(1.1);
+}
+
+.title3{
+    margin: 2% 0 5%;
+    text-align: center;
+    font-size: 40px;
+    font-family: "deansgate";
+    color:#fff;
+
+    
+}
+
+
+
+
+/*------------image---------------*/
+
+.imagetest{
+    background-image: url("images/sunset.jpg");
+    background-size: cover;
+    background-position: center;
+    background-attachment: scroll;
+    height: 400px;
+}
+
+
+
+
+/*------------infographic---------------*/
+.infographic{
+    background-image: url(images/diamond_pink.png);
+    background-size: cover;
+    background-position: top;
+    background-attachment: scroll;
+    padding: 50px 0px;
+}
+.title1{
+    margin: 2% 0 5%;
+    text-align: left;
+    font-size: 36px;
+    font-family: "deansgate";
+    color:#fff;
+}
+.subtitle{
+    text-align: center;
+    font-size: 23px;
+    font-family: "deansgate";
+    color:#fff;
+}
+
+
+
+/*------------footer---------------*/
+
+.sitefooter{
+    margin: 0px 0;
+    padding-top: 50px;
+    background-image: url(images/bg_diamond_blue.png);
+    background-size: cover;
+    background-position: bottom;
+    background-attachment: scroll;
+    text-align: center; 
+}
+.nav-logo img{
+    padding-top: 20px;
+    padding-bottom: 10px;
+    width: 100px;
+    transition: transform .5;
+    position: left;
+}
+.nav-logo img:hover{
+    transform: scale(1.1);
+}
+.footer-title{
+    text-align: left;
+    font-size: 22px;
+    font-family: "deansgate";
+    color:rgb(95, 95, 95);
+}
+.nav-item2{
+    text-align: left;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+.active-smartcity2{
+    border-bottom: 2px solid rgb(95, 95, 95);
+    font-size: 19px !important;
+}
+.nav-link2{
+    text-align: left;
+    font-size: 15px;
+    font-family: "deansgate";
+    color:rgb(95, 95, 95); 
+    padding: 0 0 5px 0 !important;
+    display: unset !important;
+    text-decoration: none !important;
+}
+.nav-link2:hover{
+    border-bottom: 2px solid rgb(95, 95, 95);
+    font-size: 18px;
+    color:rgb(95, 95, 95)
+}
+.footerline{
+    margin-top: 30px;
+    height: 1px;
+    border: 0;
+    color: #333;
+    background-color: #333;
+    width: 100%;
+}
+.copyright-txt{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 12px;
+    font-family: "deansgate";
+    color:rgb(95, 95, 95);
+}
+
+
+
